@@ -1,0 +1,85 @@
+# macOS
+.DS_Store
+
+
+
+# fichiers de mise en quarantaine
+._*
+
+# Thumbs.db
+ehthumbs.db
+Thumbs.db
+
+# Vim
+*.swp
+*.swo
+*.swn
+*~
+.netrwhist
+.vimrc
+
+# VS Code
+.vscode/
+.history/
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# Zed
+.zed/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+.env
+.venv
+env/
+venv/
+ENV/
+ENV.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Fichiers logs ou temporaires
+*.log
+*.tmp
+*.bak
+*.old
+
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+nosetests.xml
+coverage.xml
+
+# Tests & debug
+test-results/
+.debug/
+
+# Build
+build/
+dist/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+*.manifest
+
+# Config personnel (maintenir son environnement local propre) avec les projets Python
+*.code-workspace
+
